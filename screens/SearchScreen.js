@@ -93,7 +93,7 @@ export default class Searchscreen extends React.Component {
               <Text>{"Book Id: " + item.bookId}</Text>
               <Text>{"Student id: " + item.studentId}</Text>
               <Text>{"Transaction Type: " + item.transactionType}</Text>
-              <Text>{"Date: " + item.date.toDate()}</Text>
+              <Text>{"Date: " + item.date.toDateString()}</Text>
             </View>
           )}
           keyExtractor= {(item, index)=> index.toString()}
